@@ -7,7 +7,25 @@
 		<key>ModularBagExperiment.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2D09E9A72073D688008320D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2D09E9BB2073D68A008320D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2D09E9C62073D68B008320D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

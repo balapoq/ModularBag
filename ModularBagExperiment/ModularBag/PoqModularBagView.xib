@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PoqModularBagViewController" customModule="PoqPlatform" customModuleProvider="target">
+            <connections>
+                <outlet property="checkoutButton" destination="LRI-J8-Xks" id="KrS-kr-Zml"/>
+                <outlet property="collectionView" destination="5Jf-fG-JF7" id="zOi-nO-fZ2"/>
+                <outlet property="numberItemsLabel" destination="8AT-3d-isG" id="k7g-Z4-yPo"/>
+                <outlet property="totalLabel" destination="1iz-k8-xKU" id="XwH-gX-8H9"/>
+                <outlet property="view" destination="pw8-y6-hZP" id="Izx-7g-xOb"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="pw8-y6-hZP">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="5Jf-fG-JF7">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="508"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="mdy-v3-57e">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zmc-lw-pEY">
+                    <rect key="frame" x="0.0" y="508" width="375" height="110"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4gh-vY-Ft6">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="1"/>
+                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="Vmc-RB-FEK"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRI-J8-Xks" customClass="CheckoutButton" customModule="PoqPlatform" customModuleProvider="target">
+                            <rect key="frame" x="15" y="45" width="345" height="45"/>
+                            <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="qEJ-fh-RL7"/>
+                            </constraints>
+                            <state key="normal" title="Checkout Securely"/>
+                            <state key="disabled">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Items" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8AT-3d-isG">
+                            <rect key="frame" x="15" y="16" width="57" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total:$220" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iz-k8-xKU">
+                            <rect key="frame" x="277" y="16" width="83" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="4gh-vY-Ft6" secondAttribute="trailing" id="3Am-az-Eyd"/>
+                        <constraint firstItem="8AT-3d-isG" firstAttribute="top" secondItem="4gh-vY-Ft6" secondAttribute="bottom" constant="15" id="6KP-Xm-SAJ"/>
+                        <constraint firstItem="1iz-k8-xKU" firstAttribute="trailing" secondItem="LRI-J8-Xks" secondAttribute="trailing" id="KwA-xI-mfr"/>
+                        <constraint firstItem="1iz-k8-xKU" firstAttribute="top" secondItem="4gh-vY-Ft6" secondAttribute="bottom" constant="15" id="Yea-i8-INs"/>
+                        <constraint firstAttribute="bottom" secondItem="LRI-J8-Xks" secondAttribute="bottom" constant="20" id="h3Q-uy-Utm"/>
+                        <constraint firstItem="LRI-J8-Xks" firstAttribute="leading" secondItem="8AT-3d-isG" secondAttribute="leading" id="r3X-ba-RBf"/>
+                        <constraint firstItem="LRI-J8-Xks" firstAttribute="leading" secondItem="zmc-lw-pEY" secondAttribute="leading" constant="15" id="r7r-ol-XQn"/>
+                        <constraint firstItem="4gh-vY-Ft6" firstAttribute="top" secondItem="zmc-lw-pEY" secondAttribute="top" id="sGV-vc-kIz"/>
+                        <constraint firstItem="4gh-vY-Ft6" firstAttribute="leading" secondItem="zmc-lw-pEY" secondAttribute="leading" id="sZr-pg-cg0"/>
+                        <constraint firstAttribute="height" constant="110" id="uZD-5e-a1h"/>
+                        <constraint firstAttribute="trailing" secondItem="LRI-J8-Xks" secondAttribute="trailing" constant="15" id="vmo-2S-T39"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zmc-lw-pEY" firstAttribute="top" secondItem="5Jf-fG-JF7" secondAttribute="bottom" id="7yX-DI-5vK"/>
+                <constraint firstItem="5Jf-fG-JF7" firstAttribute="top" secondItem="pw8-y6-hZP" secondAttribute="top" id="Hel-Wi-hFe"/>
+                <constraint firstItem="zmc-lw-pEY" firstAttribute="leading" secondItem="pw8-y6-hZP" secondAttribute="leading" id="NOf-Nw-Yf9"/>
+                <constraint firstAttribute="trailing" secondItem="zmc-lw-pEY" secondAttribute="trailing" id="Q79-Gi-Uda"/>
+                <constraint firstAttribute="bottom" secondItem="zmc-lw-pEY" secondAttribute="bottom" id="e22-Hc-RxG"/>
+                <constraint firstAttribute="trailing" secondItem="5Jf-fG-JF7" secondAttribute="trailing" id="vSs-Di-pgo"/>
+                <constraint firstItem="5Jf-fG-JF7" firstAttribute="leading" secondItem="pw8-y6-hZP" secondAttribute="leading" id="yZX-rJ-BEC"/>
+            </constraints>
+            <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+            <viewLayoutGuide key="safeArea" id="cgS-hM-ou7"/>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+</document>

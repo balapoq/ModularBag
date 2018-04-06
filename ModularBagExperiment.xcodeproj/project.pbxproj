@@ -14,6 +14,48 @@
 		2D09E9B62073D68A008320D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D09E9B42073D68A008320D7 /* LaunchScreen.storyboard */; };
 		2D09E9C12073D68A008320D7 /* ModularBagExperimentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D09E9C02073D68A008320D7 /* ModularBagExperimentTests.swift */; };
 		2D09E9CC2073D68B008320D7 /* ModularBagExperimentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D09E9CB2073D68B008320D7 /* ModularBagExperimentUITests.swift */; };
+		2D9FD2822073D9A6009D1CDF /* SwipeToDeleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD25E2073D9A1009D1CDF /* SwipeToDeleteCell.swift */; };
+		2D9FD2832073D9A6009D1CDF /* PoqModularBagCellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD25F2073D9A1009D1CDF /* PoqModularBagCellBuilder.swift */; };
+		2D9FD2842073D9A6009D1CDF /* PoqModularBagPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2602073D9A1009D1CDF /* PoqModularBagPresenter.swift */; };
+		2D9FD2852073D9A6009D1CDF /* BagViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2612073D9A1009D1CDF /* BagViewState.swift */; };
+		2D9FD2862073D9A6009D1CDF /* ModularBagItemCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2622073D9A1009D1CDF /* ModularBagItemCell.xib */; };
+		2D9FD2872073D9A6009D1CDF /* TappableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2632073D9A1009D1CDF /* TappableCell.swift */; };
+		2D9FD2882073D9A6009D1CDF /* ModularBagRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2642073D9A1009D1CDF /* ModularBagRouter.swift */; };
+		2D9FD2892073D9A6009D1CDF /* ModularCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2652073D9A2009D1CDF /* ModularCollectionViewDelegate.swift */; };
+		2D9FD28A2073D9A6009D1CDF /* EditableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2662073D9A2009D1CDF /* EditableCell.swift */; };
+		2D9FD28B2073D9A6009D1CDF /* ContentBlockBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2672073D9A2009D1CDF /* ContentBlockBuilder.swift */; };
+		2D9FD28C2073D9A6009D1CDF /* PoqModularBagCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2682073D9A2009D1CDF /* PoqModularBagCollectionViewDataSource.swift */; };
+		2D9FD28D2073D9A6009D1CDF /* PoqModularBagInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2692073D9A2009D1CDF /* PoqModularBagInteractor.swift */; };
+		2D9FD28E2073D9A6009D1CDF /* ModularBagItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD26A2073D9A2009D1CDF /* ModularBagItemCell.swift */; };
+		2D9FD28F2073D9A6009D1CDF /* PoqModularBagDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD26B2073D9A2009D1CDF /* PoqModularBagDataManager.swift */; };
+		2D9FD2902073D9A7009D1CDF /* ContentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD26C2073D9A3009D1CDF /* ContentStore.swift */; };
+		2D9FD2912073D9A7009D1CDF /* ModularBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD26D2073D9A3009D1CDF /* ModularBag.swift */; };
+		2D9FD2932073D9A7009D1CDF /* PoqModularBagBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD26F2073D9A3009D1CDF /* PoqModularBagBuilder.swift */; };
+		2D9FD2942073D9A7009D1CDF /* PoqModularBagView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2702073D9A3009D1CDF /* PoqModularBagView.xib */; };
+		2D9FD2952073D9A7009D1CDF /* CollectionViewDataSource in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2712073D9A3009D1CDF /* CollectionViewDataSource */; };
+		2D9FD2962073D9A7009D1CDF /* PoqModularModularBagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2722073D9A3009D1CDF /* PoqModularModularBagViewController.swift */; };
+		2D9FD2972073D9A7009D1CDF /* ModularBagDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2732073D9A4009D1CDF /* ModularBagDataManager.swift */; };
+		2D9FD2982073D9A7009D1CDF /* ModularBagPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2742073D9A4009D1CDF /* ModularBagPresenter.swift */; };
+		2D9FD2992073D9A7009D1CDF /* ModularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2752073D9A4009D1CDF /* ModularCell.swift */; };
+		2D9FD29A2073D9A7009D1CDF /* delete.imageset in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2762073D9A4009D1CDF /* delete.imageset */; };
+		2D9FD29B2073D9A7009D1CDF /* ModularBagInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2772073D9A4009D1CDF /* ModularBagInteractor.swift */; };
+		2D9FD29C2073D9A7009D1CDF /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2782073D9A5009D1CDF /* DataStore.swift */; };
+		2D9FD29D2073D9A7009D1CDF /* ModularCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2792073D9A5009D1CDF /* ModularCollectionViewDataSource.swift */; };
+		2D9FD29E2073D9A7009D1CDF /* PoqClassicBagContentBlockBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD27A2073D9A5009D1CDF /* PoqClassicBagContentBlockBuilder.swift */; };
+		2D9FD29F2073D9A7009D1CDF /* PoqClassicBagDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD27B2073D9A5009D1CDF /* PoqClassicBagDataManager.swift */; };
+		2D9FD2A02073D9A7009D1CDF /* PoqModularBagCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD27C2073D9A5009D1CDF /* PoqModularBagCollectionViewDelegate.swift */; };
+		2D9FD2A12073D9A7009D1CDF /* PoqModularBagContentBlockBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD27D2073D9A5009D1CDF /* PoqModularBagContentBlockBuilder.swift */; };
+		2D9FD2A22073D9A7009D1CDF /* CellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD27E2073D9A6009D1CDF /* CellBuilder.swift */; };
+		2D9FD2A32073D9A7009D1CDF /* PoqModularBagRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD27F2073D9A6009D1CDF /* PoqModularBagRouter.swift */; };
+		2D9FD2A42073D9A7009D1CDF /* PoqModularBagViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2802073D9A6009D1CDF /* PoqModularBagViewData.swift */; };
+		2D9FD2A52073D9A7009D1CDF /* ModularBagBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2812073D9A6009D1CDF /* ModularBagBuilder.swift */; };
+		2D9FD2A82073DBFE009D1CDF /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9FD2A72073DBFE009D1CDF /* Lottie.framework */; };
+		2D9FD2AA2073DF85009D1CDF /* PoqReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2A92073DF85009D1CDF /* PoqReusableView.swift */; };
+		2D9FD2AC2073DFF1009D1CDF /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2AB2073DFF1009D1CDF /* UIColorExtension.swift */; };
+		2D9FD2AF2074C446009D1CDF /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9FD2A72073DBFE009D1CDF /* Lottie.framework */; };
+		2D9FD2B02074C446009D1CDF /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9FD2A72073DBFE009D1CDF /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D9FD2B32074EE92009D1CDF /* BagItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D9FD2B22074EE92009D1CDF /* BagItems.json */; };
+		2DBF8D122077BB5900054B9C /* like.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DBF8D112077BB5800054B9C /* like.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +75,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		2D9FD2B12074C446009D1CDF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2D9FD2B02074C446009D1CDF /* Lottie.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1E0ACCD50480EACCCDBCBB7D /* Pods-ModularBagExperiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularBagExperiment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ModularBagExperiment/Pods-ModularBagExperiment.debug.xcconfig"; sourceTree = "<group>"; };
+		28346DF810B8B2933F97F64E /* Pods-ModularBagExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ModularBagExperiment.release.xcconfig"; path = "Pods/Target Support Files/Pods-ModularBagExperiment/Pods-ModularBagExperiment.release.xcconfig"; sourceTree = "<group>"; };
 		2D09E9A82073D688008320D7 /* ModularBagExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModularBagExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D09E9AB2073D688008320D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D09E9AD2073D688008320D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +105,47 @@
 		2D09E9C72073D68B008320D7 /* ModularBagExperimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularBagExperimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D09E9CB2073D68B008320D7 /* ModularBagExperimentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularBagExperimentUITests.swift; sourceTree = "<group>"; };
 		2D09E9CD2073D68B008320D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D9FD25E2073D9A1009D1CDF /* SwipeToDeleteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToDeleteCell.swift; sourceTree = "<group>"; };
+		2D9FD25F2073D9A1009D1CDF /* PoqModularBagCellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularBagCellBuilder.swift; sourceTree = "<group>"; };
+		2D9FD2602073D9A1009D1CDF /* PoqModularBagPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularBagPresenter.swift; sourceTree = "<group>"; };
+		2D9FD2612073D9A1009D1CDF /* BagViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BagViewState.swift; sourceTree = "<group>"; };
+		2D9FD2622073D9A1009D1CDF /* ModularBagItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModularBagItemCell.xib; sourceTree = "<group>"; };
+		2D9FD2632073D9A1009D1CDF /* TappableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableCell.swift; sourceTree = "<group>"; };
+		2D9FD2642073D9A1009D1CDF /* ModularBagRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularBagRouter.swift; sourceTree = "<group>"; };
+		2D9FD2652073D9A2009D1CDF /* ModularCollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		2D9FD2662073D9A2009D1CDF /* EditableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableCell.swift; sourceTree = "<group>"; };
+		2D9FD2672073D9A2009D1CDF /* ContentBlockBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockBuilder.swift; sourceTree = "<group>"; };
+		2D9FD2682073D9A2009D1CDF /* PoqModularBagCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularBagCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		2D9FD2692073D9A2009D1CDF /* PoqModularBagInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularBagInteractor.swift; sourceTree = "<group>"; };
+		2D9FD26A2073D9A2009D1CDF /* ModularBagItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularBagItemCell.swift; sourceTree = "<group>"; };
+		2D9FD26B2073D9A2009D1CDF /* PoqModularBagDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularBagDataManager.swift; sourceTree = "<group>"; };
+		2D9FD26C2073D9A3009D1CDF /* ContentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentStore.swift; sourceTree = "<group>"; };
+		2D9FD26D2073D9A3009D1CDF /* ModularBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularBag.swift; sourceTree = "<group>"; };
+		2D9FD26F2073D9A3009D1CDF /* PoqModularBagBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularBagBuilder.swift; sourceTree = "<group>"; };
+		2D9FD2702073D9A3009D1CDF /* PoqModularBagView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PoqModularBagView.xib; sourceTree = "<group>"; };
+		2D9FD2712073D9A3009D1CDF /* CollectionViewDataSource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CollectionViewDataSource; sourceTree = "<group>"; };
+		2D9FD2722073D9A3009D1CDF /* PoqModularModularBagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularModularBagViewController.swift; sourceTree = "<group>"; };
+		2D9FD2732073D9A4009D1CDF /* ModularBagDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularBagDataManager.swift; sourceTree = "<group>"; };
+		2D9FD2742073D9A4009D1CDF /* ModularBagPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularBagPresenter.swift; sourceTree = "<group>"; };
+		2D9FD2752073D9A4009D1CDF /* ModularCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularCell.swift; sourceTree = "<group>"; };
+		2D9FD2762073D9A4009D1CDF /* delete.imageset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = delete.imageset; sourceTree = "<group>"; };
+		2D9FD2772073D9A4009D1CDF /* ModularBagInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularBagInteractor.swift; sourceTree = "<group>"; };
+		2D9FD2782073D9A5009D1CDF /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		2D9FD2792073D9A5009D1CDF /* ModularCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		2D9FD27A2073D9A5009D1CDF /* PoqClassicBagContentBlockBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqClassicBagContentBlockBuilder.swift; sourceTree = "<group>"; };
+		2D9FD27B2073D9A5009D1CDF /* PoqClassicBagDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqClassicBagDataManager.swift; sourceTree = "<group>"; };
+		2D9FD27C2073D9A5009D1CDF /* PoqModularBagCollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularBagCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		2D9FD27D2073D9A5009D1CDF /* PoqModularBagContentBlockBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularBagContentBlockBuilder.swift; sourceTree = "<group>"; };
+		2D9FD27E2073D9A6009D1CDF /* CellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBuilder.swift; sourceTree = "<group>"; };
+		2D9FD27F2073D9A6009D1CDF /* PoqModularBagRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularBagRouter.swift; sourceTree = "<group>"; };
+		2D9FD2802073D9A6009D1CDF /* PoqModularBagViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularBagViewData.swift; sourceTree = "<group>"; };
+		2D9FD2812073D9A6009D1CDF /* ModularBagBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularBagBuilder.swift; sourceTree = "<group>"; };
+		2D9FD2A72073DBFE009D1CDF /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lottie.framework; path = ModularBagExperiment/Carthage/Build/iOS/Lottie.framework; sourceTree = "<group>"; };
+		2D9FD2A92073DF85009D1CDF /* PoqReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoqReusableView.swift; sourceTree = "<group>"; };
+		2D9FD2AB2073DFF1009D1CDF /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		2D9FD2B22074EE92009D1CDF /* BagItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BagItems.json; sourceTree = "<group>"; };
+		2DBF8D112077BB5800054B9C /* like.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = like.json; sourceTree = "<group>"; };
+		7A63E9D3494766BD0C70EEB7 /* Pods_ModularBagExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModularBagExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +153,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9FD2A82073DBFE009D1CDF /* Lottie.framework in Frameworks */,
+				2D9FD2AF2074C446009D1CDF /* Lottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +182,8 @@
 				2D09E9BF2073D68A008320D7 /* ModularBagExperimentTests */,
 				2D09E9CA2073D68B008320D7 /* ModularBagExperimentUITests */,
 				2D09E9A92073D688008320D7 /* Products */,
+				2D9FD2A62073DBFD009D1CDF /* Frameworks */,
+				C5540D2EC0D56CBF095821B9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +200,16 @@
 		2D09E9AA2073D688008320D7 /* ModularBagExperiment */ = {
 			isa = PBXGroup;
 			children = (
+				2D9FD2AB2073DFF1009D1CDF /* UIColorExtension.swift */,
+				2D9FD2A92073DF85009D1CDF /* PoqReusableView.swift */,
+				2D09E9D92073D76C008320D7 /* ModularBag */,
 				2D09E9AB2073D688008320D7 /* AppDelegate.swift */,
 				2D09E9AD2073D688008320D7 /* ViewController.swift */,
 				2D09E9AF2073D688008320D7 /* Main.storyboard */,
 				2D09E9B22073D68A008320D7 /* Assets.xcassets */,
 				2D09E9B42073D68A008320D7 /* LaunchScreen.storyboard */,
 				2D09E9B72073D68A008320D7 /* Info.plist */,
+				2D9FD2B22074EE92009D1CDF /* BagItems.json */,
 			);
 			path = ModularBagExperiment;
 			sourceTree = "<group>";
@@ -125,6 +232,67 @@
 			path = ModularBagExperimentUITests;
 			sourceTree = "<group>";
 		};
+		2D09E9D92073D76C008320D7 /* ModularBag */ = {
+			isa = PBXGroup;
+			children = (
+				2DBF8D112077BB5800054B9C /* like.json */,
+				2D9FD2612073D9A1009D1CDF /* BagViewState.swift */,
+				2D9FD27E2073D9A6009D1CDF /* CellBuilder.swift */,
+				2D9FD2712073D9A3009D1CDF /* CollectionViewDataSource */,
+				2D9FD2672073D9A2009D1CDF /* ContentBlockBuilder.swift */,
+				2D9FD26C2073D9A3009D1CDF /* ContentStore.swift */,
+				2D9FD2782073D9A5009D1CDF /* DataStore.swift */,
+				2D9FD2762073D9A4009D1CDF /* delete.imageset */,
+				2D9FD2662073D9A2009D1CDF /* EditableCell.swift */,
+				2D9FD26D2073D9A3009D1CDF /* ModularBag.swift */,
+				2D9FD2812073D9A6009D1CDF /* ModularBagBuilder.swift */,
+				2D9FD2732073D9A4009D1CDF /* ModularBagDataManager.swift */,
+				2D9FD2772073D9A4009D1CDF /* ModularBagInteractor.swift */,
+				2D9FD26A2073D9A2009D1CDF /* ModularBagItemCell.swift */,
+				2D9FD2622073D9A1009D1CDF /* ModularBagItemCell.xib */,
+				2D9FD2742073D9A4009D1CDF /* ModularBagPresenter.swift */,
+				2D9FD2642073D9A1009D1CDF /* ModularBagRouter.swift */,
+				2D9FD2752073D9A4009D1CDF /* ModularCell.swift */,
+				2D9FD2792073D9A5009D1CDF /* ModularCollectionViewDataSource.swift */,
+				2D9FD2652073D9A2009D1CDF /* ModularCollectionViewDelegate.swift */,
+				2D9FD27A2073D9A5009D1CDF /* PoqClassicBagContentBlockBuilder.swift */,
+				2D9FD27B2073D9A5009D1CDF /* PoqClassicBagDataManager.swift */,
+				2D9FD26F2073D9A3009D1CDF /* PoqModularBagBuilder.swift */,
+				2D9FD25F2073D9A1009D1CDF /* PoqModularBagCellBuilder.swift */,
+				2D9FD2682073D9A2009D1CDF /* PoqModularBagCollectionViewDataSource.swift */,
+				2D9FD27C2073D9A5009D1CDF /* PoqModularBagCollectionViewDelegate.swift */,
+				2D9FD27D2073D9A5009D1CDF /* PoqModularBagContentBlockBuilder.swift */,
+				2D9FD26B2073D9A2009D1CDF /* PoqModularBagDataManager.swift */,
+				2D9FD2692073D9A2009D1CDF /* PoqModularBagInteractor.swift */,
+				2D9FD2602073D9A1009D1CDF /* PoqModularBagPresenter.swift */,
+				2D9FD27F2073D9A6009D1CDF /* PoqModularBagRouter.swift */,
+				2D9FD2702073D9A3009D1CDF /* PoqModularBagView.xib */,
+				2D9FD2802073D9A6009D1CDF /* PoqModularBagViewData.swift */,
+				2D9FD2722073D9A3009D1CDF /* PoqModularModularBagViewController.swift */,
+				2D9FD25E2073D9A1009D1CDF /* SwipeToDeleteCell.swift */,
+				2D9FD2632073D9A1009D1CDF /* TappableCell.swift */,
+			);
+			path = ModularBag;
+			sourceTree = "<group>";
+		};
+		2D9FD2A62073DBFD009D1CDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FD2A72073DBFE009D1CDF /* Lottie.framework */,
+				7A63E9D3494766BD0C70EEB7 /* Pods_ModularBagExperiment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5540D2EC0D56CBF095821B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E0ACCD50480EACCCDBCBB7D /* Pods-ModularBagExperiment.debug.xcconfig */,
+				28346DF810B8B2933F97F64E /* Pods-ModularBagExperiment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +303,7 @@
 				2D09E9A42073D688008320D7 /* Sources */,
 				2D09E9A52073D688008320D7 /* Frameworks */,
 				2D09E9A62073D688008320D7 /* Resources */,
+				2D9FD2B12074C446009D1CDF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +401,8 @@
 				2D09E9B62073D68A008320D7 /* LaunchScreen.storyboard in Resources */,
 				2D09E9B32073D68A008320D7 /* Assets.xcassets in Resources */,
 				2D09E9B12073D688008320D7 /* Main.storyboard in Resources */,
+				2DBF8D122077BB5900054B9C /* like.json in Resources */,
+				2D9FD2B32074EE92009D1CDF /* BagItems.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +427,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D9FD2822073D9A6009D1CDF /* SwipeToDeleteCell.swift in Sources */,
+				2D9FD2832073D9A6009D1CDF /* PoqModularBagCellBuilder.swift in Sources */,
+				2D9FD2842073D9A6009D1CDF /* PoqModularBagPresenter.swift in Sources */,
+				2D9FD2852073D9A6009D1CDF /* BagViewState.swift in Sources */,
+				2D9FD2862073D9A6009D1CDF /* ModularBagItemCell.xib in Sources */,
+				2D9FD2872073D9A6009D1CDF /* TappableCell.swift in Sources */,
+				2D9FD2882073D9A6009D1CDF /* ModularBagRouter.swift in Sources */,
+				2D9FD2892073D9A6009D1CDF /* ModularCollectionViewDelegate.swift in Sources */,
+				2D9FD28A2073D9A6009D1CDF /* EditableCell.swift in Sources */,
+				2D9FD28B2073D9A6009D1CDF /* ContentBlockBuilder.swift in Sources */,
+				2D9FD2AA2073DF85009D1CDF /* PoqReusableView.swift in Sources */,
+				2D9FD28C2073D9A6009D1CDF /* PoqModularBagCollectionViewDataSource.swift in Sources */,
+				2D9FD28D2073D9A6009D1CDF /* PoqModularBagInteractor.swift in Sources */,
+				2D9FD28E2073D9A6009D1CDF /* ModularBagItemCell.swift in Sources */,
+				2D9FD28F2073D9A6009D1CDF /* PoqModularBagDataManager.swift in Sources */,
+				2D9FD2902073D9A7009D1CDF /* ContentStore.swift in Sources */,
+				2D9FD2912073D9A7009D1CDF /* ModularBag.swift in Sources */,
+				2D9FD2932073D9A7009D1CDF /* PoqModularBagBuilder.swift in Sources */,
+				2D9FD2942073D9A7009D1CDF /* PoqModularBagView.xib in Sources */,
+				2D9FD2952073D9A7009D1CDF /* CollectionViewDataSource in Sources */,
+				2D9FD2962073D9A7009D1CDF /* PoqModularModularBagViewController.swift in Sources */,
+				2D9FD2972073D9A7009D1CDF /* ModularBagDataManager.swift in Sources */,
+				2D9FD2982073D9A7009D1CDF /* ModularBagPresenter.swift in Sources */,
+				2D9FD2992073D9A7009D1CDF /* ModularCell.swift in Sources */,
+				2D9FD29A2073D9A7009D1CDF /* delete.imageset in Sources */,
+				2D9FD29B2073D9A7009D1CDF /* ModularBagInteractor.swift in Sources */,
+				2D9FD2AC2073DFF1009D1CDF /* UIColorExtension.swift in Sources */,
+				2D9FD29C2073D9A7009D1CDF /* DataStore.swift in Sources */,
+				2D9FD29D2073D9A7009D1CDF /* ModularCollectionViewDataSource.swift in Sources */,
+				2D9FD29E2073D9A7009D1CDF /* PoqClassicBagContentBlockBuilder.swift in Sources */,
+				2D9FD29F2073D9A7009D1CDF /* PoqClassicBagDataManager.swift in Sources */,
+				2D9FD2A02073D9A7009D1CDF /* PoqModularBagCollectionViewDelegate.swift in Sources */,
+				2D9FD2A12073D9A7009D1CDF /* PoqModularBagContentBlockBuilder.swift in Sources */,
+				2D9FD2A22073D9A7009D1CDF /* CellBuilder.swift in Sources */,
+				2D9FD2A32073D9A7009D1CDF /* PoqModularBagRouter.swift in Sources */,
+				2D9FD2A42073D9A7009D1CDF /* PoqModularBagViewData.swift in Sources */,
+				2D9FD2A52073D9A7009D1CDF /* ModularBagBuilder.swift in Sources */,
 				2D09E9AE2073D688008320D7 /* ViewController.swift in Sources */,
 				2D09E9AC2073D688008320D7 /* AppDelegate.swift in Sources */,
 			);
@@ -369,6 +577,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -422,20 +631,27 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		2D09E9D12073D68B008320D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E0ACCD50480EACCCDBCBB7D /* Pods-ModularBagExperiment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ModularBagExperiment/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ModularBagExperiment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.poqstudio.ModularBagExperiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -445,14 +661,20 @@
 		};
 		2D09E9D22073D68B008320D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28346DF810B8B2933F97F64E /* Pods-ModularBagExperiment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ModularBagExperiment/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ModularBagExperiment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.poqstudio.ModularBagExperiment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

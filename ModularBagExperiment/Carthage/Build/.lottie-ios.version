@@ -1,0 +1,9 @@
+{
+  "commitish" : "8c9a728676d19c470548cf2d5b8c0368ad51ad7d",
+  "iOS" : [
+    {
+      "name" : "Lottie",
+      "hash" : "8845b115fa54820cf6f2100417a64ad97ca50e1d1a1935dc9eea3aaa83c6e1ec"
+    }
+  ]
+}
