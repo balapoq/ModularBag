@@ -38,8 +38,9 @@ public class PoqModularBagPresenter: ModularBagPresenter {
         // We don't want to update the bag if the user is in the process of Editing it.
         if !(inEditMode ?? false) {
             
-            interactor?.fetchBag()
             viewState?.loading()
+            interactor?.fetchBag()
+            
         }
     }
     

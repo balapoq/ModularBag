@@ -56,10 +56,6 @@ public class PoqModularBagInteractor: ModularBagInteractor {
     public func addContentHandler(_ handler: @escaping (ContentStoreActionType?, [ContentType]?) -> Void) {
         
         contentStore?.addHandler(handler)
-        
-        if dataStore?.data == nil {
-            fetchBag()
-        }
     }
     
     public var bagTotal: Decimal? {

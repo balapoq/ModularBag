@@ -17,6 +17,8 @@ public protocol ModularBagInteractor {
     var dataManager: ModularBagDataManager? { get }
 
     func fetchBag(callOnCompletion completion: @escaping BagFetchCompletion, callOnFailure failure: @escaping BagFetchFailure)
+    
+    func fetchBag()
 
     func updateBag(callOnCompletion completion: @escaping BagFetchCompletion, callOnFailure failure: @escaping BagFetchFailure)
     
