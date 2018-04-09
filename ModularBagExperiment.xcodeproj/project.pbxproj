@@ -32,8 +32,6 @@
 		2D9FD2912073D9A7009D1CDF /* ModularBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD26D2073D9A3009D1CDF /* ModularBag.swift */; };
 		2D9FD2932073D9A7009D1CDF /* PoqModularBagBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD26F2073D9A3009D1CDF /* PoqModularBagBuilder.swift */; };
 		2D9FD2942073D9A7009D1CDF /* PoqModularBagView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2702073D9A3009D1CDF /* PoqModularBagView.xib */; };
-		2D9FD2952073D9A7009D1CDF /* CollectionViewDataSource in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2712073D9A3009D1CDF /* CollectionViewDataSource */; };
-		2D9FD2962073D9A7009D1CDF /* PoqModularModularBagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2722073D9A3009D1CDF /* PoqModularModularBagViewController.swift */; };
 		2D9FD2972073D9A7009D1CDF /* ModularBagDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2732073D9A4009D1CDF /* ModularBagDataManager.swift */; };
 		2D9FD2982073D9A7009D1CDF /* ModularBagPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2742073D9A4009D1CDF /* ModularBagPresenter.swift */; };
 		2D9FD2992073D9A7009D1CDF /* ModularCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9FD2752073D9A4009D1CDF /* ModularCell.swift */; };
@@ -56,6 +54,7 @@
 		2D9FD2B02074C446009D1CDF /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9FD2A72073DBFE009D1CDF /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2D9FD2B32074EE92009D1CDF /* BagItems.json in Resources */ = {isa = PBXBuildFile; fileRef = 2D9FD2B22074EE92009D1CDF /* BagItems.json */; };
 		2DBF8D122077BB5900054B9C /* like.json in Resources */ = {isa = PBXBuildFile; fileRef = 2DBF8D112077BB5800054B9C /* like.json */; };
+		2DBF8D14207B5DF300054B9C /* PoqModularBagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBF8D13207B5DF300054B9C /* PoqModularBagViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,8 +122,6 @@
 		2D9FD26D2073D9A3009D1CDF /* ModularBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularBag.swift; sourceTree = "<group>"; };
 		2D9FD26F2073D9A3009D1CDF /* PoqModularBagBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularBagBuilder.swift; sourceTree = "<group>"; };
 		2D9FD2702073D9A3009D1CDF /* PoqModularBagView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PoqModularBagView.xib; sourceTree = "<group>"; };
-		2D9FD2712073D9A3009D1CDF /* CollectionViewDataSource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CollectionViewDataSource; sourceTree = "<group>"; };
-		2D9FD2722073D9A3009D1CDF /* PoqModularModularBagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoqModularModularBagViewController.swift; sourceTree = "<group>"; };
 		2D9FD2732073D9A4009D1CDF /* ModularBagDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularBagDataManager.swift; sourceTree = "<group>"; };
 		2D9FD2742073D9A4009D1CDF /* ModularBagPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularBagPresenter.swift; sourceTree = "<group>"; };
 		2D9FD2752073D9A4009D1CDF /* ModularCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModularCell.swift; sourceTree = "<group>"; };
@@ -145,6 +142,7 @@
 		2D9FD2AB2073DFF1009D1CDF /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		2D9FD2B22074EE92009D1CDF /* BagItems.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = BagItems.json; sourceTree = "<group>"; };
 		2DBF8D112077BB5800054B9C /* like.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = like.json; sourceTree = "<group>"; };
+		2DBF8D13207B5DF300054B9C /* PoqModularBagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PoqModularBagViewController.swift; path = /Users/bala/iOS/ModularBagExperiment/ModularBagExperiment/ModularBagExperiment/ModularBag/PoqModularBagViewController.swift; sourceTree = "<absolute>"; };
 		7A63E9D3494766BD0C70EEB7 /* Pods_ModularBagExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ModularBagExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -235,42 +233,14 @@
 		2D09E9D92073D76C008320D7 /* ModularBag */ = {
 			isa = PBXGroup;
 			children = (
+				2DBF8D20207B617200054B9C /* DataManager */,
+				2DBF8D1F207B613E00054B9C /* Builder */,
+				2DBF8D1E207B613400054B9C /* Router */,
+				2DBF8D1D207B612C00054B9C /* Presenter */,
+				2DBF8D1B207B60FD00054B9C /* Interactor */,
+				2DBF8D16207B60B800054B9C /* View */,
 				2DBF8D112077BB5800054B9C /* like.json */,
-				2D9FD2612073D9A1009D1CDF /* BagViewState.swift */,
-				2D9FD27E2073D9A6009D1CDF /* CellBuilder.swift */,
-				2D9FD2712073D9A3009D1CDF /* CollectionViewDataSource */,
-				2D9FD2672073D9A2009D1CDF /* ContentBlockBuilder.swift */,
-				2D9FD26C2073D9A3009D1CDF /* ContentStore.swift */,
-				2D9FD2782073D9A5009D1CDF /* DataStore.swift */,
 				2D9FD2762073D9A4009D1CDF /* delete.imageset */,
-				2D9FD2662073D9A2009D1CDF /* EditableCell.swift */,
-				2D9FD26D2073D9A3009D1CDF /* ModularBag.swift */,
-				2D9FD2812073D9A6009D1CDF /* ModularBagBuilder.swift */,
-				2D9FD2732073D9A4009D1CDF /* ModularBagDataManager.swift */,
-				2D9FD2772073D9A4009D1CDF /* ModularBagInteractor.swift */,
-				2D9FD26A2073D9A2009D1CDF /* ModularBagItemCell.swift */,
-				2D9FD2622073D9A1009D1CDF /* ModularBagItemCell.xib */,
-				2D9FD2742073D9A4009D1CDF /* ModularBagPresenter.swift */,
-				2D9FD2642073D9A1009D1CDF /* ModularBagRouter.swift */,
-				2D9FD2752073D9A4009D1CDF /* ModularCell.swift */,
-				2D9FD2792073D9A5009D1CDF /* ModularCollectionViewDataSource.swift */,
-				2D9FD2652073D9A2009D1CDF /* ModularCollectionViewDelegate.swift */,
-				2D9FD27A2073D9A5009D1CDF /* PoqClassicBagContentBlockBuilder.swift */,
-				2D9FD27B2073D9A5009D1CDF /* PoqClassicBagDataManager.swift */,
-				2D9FD26F2073D9A3009D1CDF /* PoqModularBagBuilder.swift */,
-				2D9FD25F2073D9A1009D1CDF /* PoqModularBagCellBuilder.swift */,
-				2D9FD2682073D9A2009D1CDF /* PoqModularBagCollectionViewDataSource.swift */,
-				2D9FD27C2073D9A5009D1CDF /* PoqModularBagCollectionViewDelegate.swift */,
-				2D9FD27D2073D9A5009D1CDF /* PoqModularBagContentBlockBuilder.swift */,
-				2D9FD26B2073D9A2009D1CDF /* PoqModularBagDataManager.swift */,
-				2D9FD2692073D9A2009D1CDF /* PoqModularBagInteractor.swift */,
-				2D9FD2602073D9A1009D1CDF /* PoqModularBagPresenter.swift */,
-				2D9FD27F2073D9A6009D1CDF /* PoqModularBagRouter.swift */,
-				2D9FD2702073D9A3009D1CDF /* PoqModularBagView.xib */,
-				2D9FD2802073D9A6009D1CDF /* PoqModularBagViewData.swift */,
-				2D9FD2722073D9A3009D1CDF /* PoqModularModularBagViewController.swift */,
-				2D9FD25E2073D9A1009D1CDF /* SwipeToDeleteCell.swift */,
-				2D9FD2632073D9A1009D1CDF /* TappableCell.swift */,
 			);
 			path = ModularBag;
 			sourceTree = "<group>";
@@ -282,6 +252,113 @@
 				7A63E9D3494766BD0C70EEB7 /* Pods_ModularBagExperiment.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DBF8D16207B60B800054B9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FD2702073D9A3009D1CDF /* PoqModularBagView.xib */,
+				2D9FD27C2073D9A5009D1CDF /* PoqModularBagCollectionViewDelegate.swift */,
+				2D9FD2682073D9A2009D1CDF /* PoqModularBagCollectionViewDataSource.swift */,
+				2D9FD2652073D9A2009D1CDF /* ModularCollectionViewDelegate.swift */,
+				2D9FD2792073D9A5009D1CDF /* ModularCollectionViewDataSource.swift */,
+				2DBF8D13207B5DF300054B9C /* PoqModularBagViewController.swift */,
+				2D9FD2612073D9A1009D1CDF /* BagViewState.swift */,
+				2DBF8D1A207B60EA00054B9C /* CollectionViewCells */,
+				2DBF8D19207B60DE00054B9C /* ViewData */,
+				2DBF8D17207B60CD00054B9C /* CellBuilder */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2DBF8D17207B60CD00054B9C /* CellBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FD25F2073D9A1009D1CDF /* PoqModularBagCellBuilder.swift */,
+				2D9FD27E2073D9A6009D1CDF /* CellBuilder.swift */,
+			);
+			path = CellBuilder;
+			sourceTree = "<group>";
+		};
+		2DBF8D19207B60DE00054B9C /* ViewData */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FD2802073D9A6009D1CDF /* PoqModularBagViewData.swift */,
+			);
+			path = ViewData;
+			sourceTree = "<group>";
+		};
+		2DBF8D1A207B60EA00054B9C /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FD2632073D9A1009D1CDF /* TappableCell.swift */,
+				2D9FD25E2073D9A1009D1CDF /* SwipeToDeleteCell.swift */,
+				2D9FD2752073D9A4009D1CDF /* ModularCell.swift */,
+				2D9FD26A2073D9A2009D1CDF /* ModularBagItemCell.swift */,
+				2D9FD2622073D9A1009D1CDF /* ModularBagItemCell.xib */,
+				2D9FD2662073D9A2009D1CDF /* EditableCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		2DBF8D1B207B60FD00054B9C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FD2782073D9A5009D1CDF /* DataStore.swift */,
+				2D9FD2692073D9A2009D1CDF /* PoqModularBagInteractor.swift */,
+				2D9FD2772073D9A4009D1CDF /* ModularBagInteractor.swift */,
+				2DBF8D1C207B611000054B9C /* ContentBlockBuilder */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		2DBF8D1C207B611000054B9C /* ContentBlockBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FD27D2073D9A5009D1CDF /* PoqModularBagContentBlockBuilder.swift */,
+				2D9FD27A2073D9A5009D1CDF /* PoqClassicBagContentBlockBuilder.swift */,
+				2D9FD2672073D9A2009D1CDF /* ContentBlockBuilder.swift */,
+			);
+			path = ContentBlockBuilder;
+			sourceTree = "<group>";
+		};
+		2DBF8D1D207B612C00054B9C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FD26C2073D9A3009D1CDF /* ContentStore.swift */,
+				2D9FD2602073D9A1009D1CDF /* PoqModularBagPresenter.swift */,
+				2D9FD2742073D9A4009D1CDF /* ModularBagPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		2DBF8D1E207B613400054B9C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FD2642073D9A1009D1CDF /* ModularBagRouter.swift */,
+				2D9FD27F2073D9A6009D1CDF /* PoqModularBagRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2DBF8D1F207B613E00054B9C /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FD26F2073D9A3009D1CDF /* PoqModularBagBuilder.swift */,
+				2D9FD2812073D9A6009D1CDF /* ModularBagBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		2DBF8D20207B617200054B9C /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2D9FD26B2073D9A2009D1CDF /* PoqModularBagDataManager.swift */,
+				2D9FD27B2073D9A5009D1CDF /* PoqClassicBagDataManager.swift */,
+				2D9FD26D2073D9A3009D1CDF /* ModularBag.swift */,
+				2D9FD2732073D9A4009D1CDF /* ModularBagDataManager.swift */,
+			);
+			path = DataManager;
 			sourceTree = "<group>";
 		};
 		C5540D2EC0D56CBF095821B9 /* Pods */ = {
@@ -429,6 +506,7 @@
 			files = (
 				2D9FD2822073D9A6009D1CDF /* SwipeToDeleteCell.swift in Sources */,
 				2D9FD2832073D9A6009D1CDF /* PoqModularBagCellBuilder.swift in Sources */,
+				2DBF8D14207B5DF300054B9C /* PoqModularBagViewController.swift in Sources */,
 				2D9FD2842073D9A6009D1CDF /* PoqModularBagPresenter.swift in Sources */,
 				2D9FD2852073D9A6009D1CDF /* BagViewState.swift in Sources */,
 				2D9FD2862073D9A6009D1CDF /* ModularBagItemCell.xib in Sources */,
@@ -446,8 +524,6 @@
 				2D9FD2912073D9A7009D1CDF /* ModularBag.swift in Sources */,
 				2D9FD2932073D9A7009D1CDF /* PoqModularBagBuilder.swift in Sources */,
 				2D9FD2942073D9A7009D1CDF /* PoqModularBagView.xib in Sources */,
-				2D9FD2952073D9A7009D1CDF /* CollectionViewDataSource in Sources */,
-				2D9FD2962073D9A7009D1CDF /* PoqModularModularBagViewController.swift in Sources */,
 				2D9FD2972073D9A7009D1CDF /* ModularBagDataManager.swift in Sources */,
 				2D9FD2982073D9A7009D1CDF /* ModularBagPresenter.swift in Sources */,
 				2D9FD2992073D9A7009D1CDF /* ModularCell.swift in Sources */,

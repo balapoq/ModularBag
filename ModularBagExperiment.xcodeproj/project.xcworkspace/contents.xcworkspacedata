@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/bala/iOS/ModularBagExperiment/ModularBagExperiment/ModularBagExperiment/ModularBag/PoqModularBagViewController.swift">
+   </FileRef>
+   <FileRef
       location = "self:ModularBagExperiment.xcodeproj">
    </FileRef>
 </Workspace>
